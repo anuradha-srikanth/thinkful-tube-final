@@ -1,0 +1,66 @@
+
+body{
+    background-color: white;
+}
+
+#thumbnail, #title{
+    display: inline-block;
+    /*text-align: center;*/
+    vertical-align: top;
+    color: white;
+}
+
+#thumbnail{
+    width: 100px;
+    height: 100px;
+    box-shadow: 1px 1px 1px #888888;
+    margin: 5px;
+}
+
+#title{
+    margin-left: 15px;
+    font-size: 13px;
+}
+
+#item{
+    /* border: 1px solid black; */
+    margin-bottom: 13px;
+    background-color: #a4d555;
+}
+
+#search-term{
+    margin-bottom: 20px;
+    
+}
+/*
+#item{
+    text-align: center;
+    vertical-align: middle;
+
+}*/
+
+h1{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+    background-color: #4cdef5;
+    letter-spacing: 1px;
+    height: 100px;
+}
+
+#submit{
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    border: 0px;
+    font-family: 'Quattrocento', serif;
+    font-size: 10px;
+}
+
+#content{
+    font-family: 'Quattrocento', serif;
+    font-size: 10px;
+    /* background-color: white; */
+}
